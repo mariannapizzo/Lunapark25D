@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/AvantiStyle.uss?fileID=7433441132597879392&amp;guid=4581cd34480a1184784ebb517bbf4170&amp;type=3#AvantiStyle" />
+    <ui:SliderInt picking-mode="Ignore" label="SliderInt" value="360" high-value="600" show-input-field="true" />
+</ui:UXML>

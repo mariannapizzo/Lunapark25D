@@ -1,0 +1,32 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/AvantiStyle.uss?fileID=7433441132597879392&amp;guid=4581cd34480a1184784ebb517bbf4170&amp;type=3#AvantiStyle" />
+    <ui:VisualElement class="background">
+        <ui:VisualElement name="TabSuperiore-Paziente" class="visualelement-Table">
+            <ui:VisualElement style="flex-grow: 1; width: 9%; height: 70%; background-image: url(&apos;project://database/Assets/UI%20Toolkit/ImmaginiPerInterfaccia/boy.png?fileID=2800000&amp;guid=4a55caa60ee5c3e44bad775ec6f8f554&amp;type=3#boy&apos;);" />
+            <ui:TextField picking-mode="Ignore" label="Nome Paziente" value="filler text" name="NomePaz" style="width: 70%; font-size: 30px; -unity-text-align: upper-center; height: 20%;" />
+            <ui:VisualElement style="flex-grow: 1;" />
+            <ui:IntegerField label="Età" value="0" view-data-key="Eta" name="Eta" />
+            <ui:VisualElement style="flex-grow: 1;" />
+            <ui:TextField picking-mode="Ignore" label="Patologia" value="filler text" name="Patologia" style="width: 40%; font-size: 30px; -unity-text-align: upper-center; height: 20%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="SelezionaPostazione" style="height: 40%; width: 60%; background-color: rgba(255, 255, 255, 0.65); left: 20%; top: 15%;">
+            <ui:Label tabindex="-1" text="Seleziona una delle postazioni sottostanti:" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Postazione" class="label-title" />
+            <ui:GroupBox name="SelPostazione" class="groupbox-radioButton">
+                <ui:RadioButton label="Fiorista" name="Fiorista" style="flex-direction: row-reverse; -unity-text-align: upper-center; align-self: center; bottom: auto; padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 3px; justify-content: center;" />
+                <ui:RadioButton label="Mostra Canina" name="Fiorista" style="flex-direction: row-reverse; -unity-text-align: upper-center; align-self: center; bottom: auto; padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 3px;" />
+                <ui:RadioButton label="Pinza" name="Pinza" style="flex-direction: row-reverse; -unity-text-align: upper-center; align-self: center; bottom: auto; padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 3px;" />
+                <ui:RadioButton label="Palloncini" name="Palloncini" style="flex-direction: row-reverse; -unity-text-align: upper-center; align-self: center; justify-content: space-around; align-items: stretch; bottom: auto; padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 3px;" />
+                <ui:RadioButton label="Bar" name="Bar" style="flex-direction: row-reverse; -unity-text-align: upper-center; align-self: center; align-items: center; bottom: auto; padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 3px;" />
+            </ui:GroupBox>
+        </ui:VisualElement>
+        <ui:Button text="Avanti" parse-escape-sequences="true" display-tooltip-when-elided="true" name="FirstNextPage" click="OnNextButtonClick" class="button-avanti" style="position: relative; left: 67%; bottom: 0; top: -10%;" />
+        <ui:VisualElement class="-visualelement-loghi">
+            <ui:VisualElement style="flex-grow: 1; width: 5%; height: 100%; background-image: url(&apos;project://database/Assets/UI%20Toolkit/Loghi/Playcuff_logo.png?fileID=2800000&amp;guid=3ed71aa527da8514cbf529c1cdb5c9c4&amp;type=3#Playcuff_logo&apos;);" />
+            <ui:VisualElement style="flex-grow: 1; width: 5%; height: 100%; background-image: url(&apos;project://database/Assets/UI%20Toolkit/Loghi/Logo%20ICMATE%20-%20ITA.png?fileID=2800000&amp;guid=bbdc9c2f6fe47d84caf93221ded5cf89&amp;type=3#Logo ICMATE - ITA&apos;);" />
+            <ui:VisualElement name="VisualElement" style="flex-grow: 1; width: 20%; height: 90%; background-image: none; flex-direction: row; left: -5%;">
+                <ui:VisualElement name="VisualElement" style="flex-grow: 1; width: auto; height: 100%; background-image: url(&apos;project://database/Assets/UI%20Toolkit/Loghi/trasferimento-removebg-preview.png?fileID=2800000&amp;guid=66bbed965ea970b4c8c47a90ec74041c&amp;type=3#trasferimento-removebg-preview&apos;); left: -5%;" />
+                <ui:VisualElement name="VisualElement" style="flex-grow: 1; width: auto; height: 100%; background-image: url(&apos;project://database/Assets/UI%20Toolkit/Loghi/logo_verticale_COLORE.png?fileID=2800000&amp;guid=8685c82a66ddf3b46b69be6298654410&amp;type=3#logo_verticale_COLORE&apos;);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

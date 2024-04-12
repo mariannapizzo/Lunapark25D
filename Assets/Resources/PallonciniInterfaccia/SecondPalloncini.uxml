@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/AvantiStyle.uss?fileID=7433441132597879392&amp;guid=4581cd34480a1184784ebb517bbf4170&amp;type=3#AvantiStyle" />
+    <ui:VisualElement class="background" style="flex-grow: 1; justify-content: flex-start; align-items: center; align-self: center; background-image: url(&apos;project://database/Assets/UI%20Toolkit/ImmaginiPerInterfaccia/BackgroundLoghi.png?fileID=2800000&amp;guid=4485a69f292790948a51dffa31fdaf6d&amp;type=3#BackgroundLoghi&apos;);">
+        <ui:VisualElement name="Table" class="visualelement-Table" style="flex-grow: 1; height: 70%; position: absolute; align-items: center; align-self: auto; justify-content: space-around;">
+            <ui:Label tabindex="-1" text="Scelta del livello palloncini:" parse-escape-sequences="true" display-tooltip-when-elided="true" class="label-title" style="justify-content: space-around; align-self: center; -unity-text-align: upper-center;" />
+            <ui:GroupBox name="SelLivello" style="width: 100%; height: 50%; justify-content: space-between; top: auto;">
+                <ui:RadioButton label="Livello 1" style="justify-content: center; flex-direction: row-reverse; align-self: center; top: auto; width: auto;" />
+                <ui:RadioButton label="Livello 2" style="flex-direction: row-reverse; align-self: center; top: auto; width: auto; background-color: rgba(0, 0, 0, 0);" />
+                <ui:RadioButton label="Livello 3" style="flex-direction: row-reverse; align-self: center; top: auto; width: auto;" />
+            </ui:GroupBox>
+            <ui:VisualElement class="visualelement-childtable">
+                <ui:Button text="Avanti" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SecondNextPage" class="button-ahead" />
+                <ui:Button text="Indietro" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SecondPreviousPage" class="button-back" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Label tabindex="-1" text="Effettuare una scelta prima di premere avanti!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="warningNoScelta" class="label-warningSec label-warning" />
+    </ui:VisualElement>
+</ui:UXML>

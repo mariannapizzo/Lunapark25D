@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/AvantiStyle.uss?fileID=7433441132597879392&amp;guid=4581cd34480a1184784ebb517bbf4170&amp;type=3#AvantiStyle" />
+    <ui:VisualElement class="background" style="flex-grow: 1; justify-content: flex-start; align-items: center; align-self: flex-start; background-image: url(&apos;project://database/Assets/UI%20Toolkit/ImmaginiPerInterfaccia/BackgroundLoghi.png?fileID=2800000&amp;guid=4485a69f292790948a51dffa31fdaf6d&amp;type=3#BackgroundLoghi&apos;);">
+        <ui:Label tabindex="-1" text="Palloncini" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+        <ui:VisualElement name="Table" class="visualelement-Table" style="flex-grow: 1; height: 70%; position: absolute; align-items: center; align-self: auto; justify-content: center; flex-direction: column; top: 15%; left: 20%;">
+            <ui:FloatField label="Tolleranza sull&apos;accuratezza del movimento[0,1]" value="0.7" name="Tolleranza" />
+            <ui:IntegerField value="42" name="tWristManteinance" label="Tempo di mantenimento posizione sO_N richiesto [s]" />
+            <ui:IntegerField label="Secondi prima che venga attivata la semplificazione" value="42" view-data-key="TSempl" name="tBeforeSemplificazione" />
+            <ui:IntegerField label="Tempo di mantenimento posizione richiesto nella semplificazione [s]" value="42" name="ReducedtWristManteinance" />
+            <ui:IntegerField label="Movimento alternativo nella semplificazione [classe]" value="0" name="alternativeMovement" />
+            <ui:VisualElement name="TerzoElemento" class="terzo-elemento" style="flex-grow: 0; height: 30%; position: absolute; align-self: auto; align-items: auto; justify-content: space-between; flex-direction: row-reverse; bottom: 0; width: 100%;">
+                <ui:Button text="Avanti" parse-escape-sequences="true" display-tooltip-when-elided="true" name="FourthNextPage" class="button-ahead" />
+                <ui:Button text="Indietro" parse-escape-sequences="true" display-tooltip-when-elided="true" name="FourthPreviousPage" class="button-back" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,18 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 11.09.2020 16:57:31
+
+newmtl Standardmaterial
+	Ns 50.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.156863 0.156863 0.156863
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka C:\Users\render3\Desktop\Wheat_seeds_Diffuse.jpg
+	map_Kd C:\Users\render3\Desktop\Wheat_seeds_Diffuse.jpg
+	map_bump C:\Users\render3\Desktop\Wheat_seeds_Normals.jpg
+	bump C:\Users\render3\Desktop\Wheat_seeds_Normals.jpg

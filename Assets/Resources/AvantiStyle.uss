@@ -1,0 +1,145 @@
+.button-avanti {
+    background-image: url('project://database/Assets/UI%20Toolkit/ImmaginiPerInterfaccia/arrow-right.png?fileID=2800000&guid=9c3bac74ba080a8448e4540e013e091f&type=3#arrow-right');
+    width: 132px;
+    height: 126px;
+    white-space: nowrap;
+    -unity-text-align: middle-center;
+    align-items: auto;
+    align-self: flex-start;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0);
+    -unity-font-style: bold;
+    -unity-text-outline-color: rgba(255, 0, 0, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    font-size: 20px;
+}
+
+.button-avanti:hover {
+    scale: 1.1 1.1;
+}
+
+.button-avanti:active {
+    background-image: url('project://database/Assets/UI%20Toolkit/ImmaginiPerInterfaccia/arrow-right_Active.png?fileID=2800000&guid=4fdf8304be7a98a4f8a404c495d8a122&type=3#arrow-right_Active');
+}
+
+.background {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    background-image: url('project://database/Assets/UI%20Toolkit/ImmaginiPerInterfaccia/InterfaceBackground.png?fileID=2800000&guid=7cd2b7ceab47c0e468dd31076517bd0c&type=3#InterfaceBackground');
+    font-size: 30px;
+}
+
+.visualelement-Table {
+    height: 30%;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.65);
+    left: 20%;
+    top: 15%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.label-title {
+    flex-direction: column;
+    font-size: 30px;
+    -unity-text-align: upper-center;
+    -unity-font-style: bold;
+    text-overflow: clip;
+    white-space: normal;
+    top: 0;
+    left: 0;
+}
+
+.unity-group-box {
+}
+
+.button-ahead {
+    white-space: nowrap;
+    align-self: flex-end;
+    background-image: url('project://database/Assets/UI%20Toolkit/ImmaginiPerInterfaccia/arrow-right.png?fileID=2800000&guid=9c3bac74ba080a8448e4540e013e091f&type=3#arrow-right');
+    width: 132px;
+    height: 126px;
+    font-size: 18px;
+    -unity-font-style: bold;
+    background-color: rgba(255, 255, 255, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.button-ahead:hover {
+    scale: 1.1 1.1;
+}
+
+.button-ahead:active {
+    background-image: url('project://database/Assets/UI%20Toolkit/ImmaginiPerInterfaccia/arrow-right_Active.png?fileID=2800000&guid=4fdf8304be7a98a4f8a404c495d8a122&type=3#arrow-right_Active');
+}
+
+.button-back {
+    white-space: nowrap;
+    align-self: flex-end;
+    background-image: url('project://database/Assets/UI%20Toolkit/ImmaginiPerInterfaccia/arrow-left.png?fileID=2800000&guid=c7a3d4a9044abea4ab7cb2861463cbd8&type=3#arrow-left');
+    align-items: flex-start;
+    width: 132px;
+    height: 126px;
+    font-size: 18px;
+    -unity-font-style: bold;
+    background-color: rgba(188, 188, 188, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.button-back:hover {
+    scale: 1.1 1.1;
+}
+
+.button-back:active {
+    background-image: url('project://database/Assets/UI%20Toolkit/ImmaginiPerInterfaccia/arrow-left_Active.png?fileID=2800000&guid=4156481972e21604e832379e028e14ac&type=3#arrow-left_Active');
+}
+
+.visualelement-childtable {
+    flex-grow: 1;
+    width: 100%;
+    height: 50%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.visualelement-loghi {
+    flex-grow: 1;
+    height: 100%;
+    flex-direction: row-reverse;
+    width: 40%;
+    align-self: flex-end;
+    background-color: rgba(0, 0, 0, 0);
+    justify-content: space-around;
+    align-items: flex-start;
+    top: 1%;
+}
+
+.label-warning {
+    align-self: center;
+    -unity-font-style: bold;
+    color: rgb(0, 0, 0);
+    height: 5%;
+    background-color: rgb(255, 0, 0);
+    justify-content: center;
+    align-items: center;
+}
+
+.label-warningSec {
+    -unity-text-align: middle-left;
+    align-self: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    top: 85%;
+}
